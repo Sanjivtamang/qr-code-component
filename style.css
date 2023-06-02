@@ -1,0 +1,45 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* note to self for late: align-items: center needs this + body + container to be 100% to work */
+html {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(218, 44%, 22%);
+    height: 100%;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+section {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 2px 5px 400px hsl(220, 15%, 55%);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin: -10px 0 50px 0;
+}   
